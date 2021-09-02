@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+body{
+    font-family: 'PT Sans', sans-serif;
+    margin: 0px;
+}
+
+:root{
+    --primary-color:#FBBF24;
+     --secondary-color: #6B7280;
+    --offwhite-color:#F9FAFB;
+}
+
+hr{
+    padding: 2rem 0rem;
+}
+/* containers*/
+.container
+{
+    padding: 0rem 1rem;
+}
+.container-center
+{
+    margin: auto;
+    max-width: 900px;
+    width: 100%;
+}
+/*links*/
+.link
+{
+    text-decoration: none;
+    padding: 0rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+}
+.list-non-bullets{
+    list-style: none;
+}
+.link-primary
+{
+    background-color: var(--primary-color);
+    border-radius: 2rem;
+    color: black;
+    text-decoration: none;
+    max-width: 150px;
+    padding: 0.6rem 1.2rem;
+    margin: 1rem auto;
+}
+.link-secondary{
+    color: var(--primary-color);
+    border-radius: 2rem;
+    border: 1px solid var(--primary-color);
+    max-width: 150px;
+    padding: 0.6rem 1.2rem;
+    margin: 1rem;
+}
+.inline-item{
+    display: inline;
+    padding: 0rem 1rem;
+}
+
+/*navigation*/
+.navigation
+{
+    background-color: var(--primary-color);
+    color: rgb(54, 53, 53);
+    border-bottom-left-radius: 2rem;
+    padding: 1rem;
+}
+.navigation .nav-brand
+{
+         font-weight: bold;
+         font-size: 2rem;
+}
+.navigation .nav-pills{
+    text-align: right;
+
+}
+.navigation .link {
+    color: rgb(54, 53, 53);
+    font-size: 1.3rem;
+}
+.navigation .link-active {
+    font-weight: bolder;
+}
+/* Header with image*/
+.hero{
+    padding:2rem;
+}
+.hero-img{
+    margin: auto;
+    display: block;
+    max-width: 400px;
+}
+.hero .hero-heading{
+    text-align: center;
+    padding: 1rem;
+    color: var(--secondary-color);
+}
+.hero .hero-heading .heading-inverted {
+    color: var(--primary-color);
+}
+/* SECTION */
+
+.section{
+    text-align: center;
+    padding: 2rem;
+}
+.section h1 {
+    text-align: center;
+}
+.ow{
+    background-color: var(--offwhite-color);
+}
+/* Footer */
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    color: black;
+    border-top-right-radius: 2rem;
+    text-align: center;
+}
+.footer .footer-heading{
+    font-size: large;
+    font-weight: bold;
+}
+.footer .link{
+    color: black;
+}
+.footer ul{
+    padding-inline-start: 0px;
+}
+
