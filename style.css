@@ -2,13 +2,15 @@
 
 body{
     font-family: 'PT Sans', sans-serif;
-    margin: 0px;
+    margin: 0px auto;
+    width: 100%;
+    /* max-width: 85%; */
 }
 
 :root{
     --primary-color:#FBBF24;
      --secondary-color: #6B7280;
-    --offwhite-color:#F9FAFB;
+    --offwhite-color:#F3F4F6;
 }
 
 hr{
@@ -106,6 +108,8 @@ hr{
 .section{
     text-align: center;
     padding: 2rem;
+    border-radius: 2rem;
+    margin: 1.5rem 0rem /*margin top-bootom 2rem and left-right 0rem*/
 }
 .section h1 {
     text-align: center;
@@ -135,7 +139,7 @@ hr{
 
 .showcase-project {
 margin: auto;
-max-width: 1000px;
+max-width: 85%;
 text-align: center;
 padding: 2rem;
 border-radius: 1rem;
@@ -149,4 +153,24 @@ border-radius: 1rem;
 /*blogs*/
 .showcase-blog {
     padding-bottom: 6rem;
+  }
+
+  @media (max-width: 900px) {
+    body {
+      max-width: 95%;
+      width: 100%;
+    }
+  
+    .inline-item {
+      display: inline;
+      padding: 0rem;
+    }
+  
+    .container-center {
+      width: auto;
+    }
+  
+    .link-primary {
+      display: block;
+    }
   }
