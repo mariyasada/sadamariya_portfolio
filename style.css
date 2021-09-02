@@ -130,5 +130,20 @@ hr{
 }
 .footer ul{
     padding-inline-start: 0px;
+ }
+ /*Projects.html css starts here */
+
+.showcase-project {
+margin: auto;
+max-width: 1000px;
+text-align: center;
+padding: 2rem;
+border-radius: 1rem;
+}
+.showcase-project p{
+    padding-bottom: 1rem;
+}
+.showcase-project h1{
+    margin: 0.6rem;
 }
 
