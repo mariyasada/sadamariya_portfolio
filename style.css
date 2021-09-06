@@ -54,8 +54,9 @@ hr{
     border-radius: 2rem;
     border: 1px solid var(--primary-color);
     max-width: 150px;
+    /* text-decoration: none; */
     padding: 0.6rem 1.2rem;
-    margin: 1rem auto;
+    margin: 1.5rem ;
 }
 .inline-item{
     display: inline;
