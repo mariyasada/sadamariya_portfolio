@@ -55,7 +55,7 @@ hr{
     border: 1px solid var(--primary-color);
     max-width: 150px;
     padding: 0.6rem 1.2rem;
-    margin: 1rem;
+    margin: 1rem auto;
 }
 .inline-item{
     display: inline;
