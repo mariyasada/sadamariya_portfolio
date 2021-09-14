@@ -1,7 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Ubuntu:wght@400;500&display=swap');
 body{
-    font-family: 'PT Sans', sans-serif;
+     /* font-family: 'PT Sans', sans-serif; */ 
+    /* font-family: 'Bree Serif', serif; */
+    font-family: 'Bree Serif', serif;
+    font-family: 'Ubuntu', sans-serif;
     margin: 0px auto;
     width: 100%;
     /* max-width: 85%; */
@@ -90,11 +94,13 @@ hr{
 /* Header with image*/
 .hero{
     padding:2rem;
+    padding-top: 4rem;
 }
 .hero-img{
     margin: auto;
     display: block;
-    max-width: 400px;
+    width: 500px;
+    max-width: 80%;
 }
 .hero .hero-heading{
     text-align: center;
