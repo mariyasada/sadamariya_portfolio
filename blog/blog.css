@@ -18,3 +18,11 @@
      text-align: center;
      margin: auto;
  }
+
+ /* js method styles */
+ .image-method{
+     text-align: center;
+     margin: 1rem;
+     /* height:200px; */
+     margin: auto;
+ }

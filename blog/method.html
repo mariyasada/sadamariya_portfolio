@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs | Sadamariya</title>
+</head>
+<link rel="stylesheet" href="/style.css">
+<!-- <link rel="stylesheet" href="blog.css"> -->
+<body>
+    <nav class="navigation container">
+        <div class="nav-brand">Sada Mariya</div>
+        <ul class="list-non-bullets nav-pills">
+            <li class="inline-item">
+                <a class="link" href="/">Home</a>
+            </li>
+            <li class="inline-item">
+                <a class="link" href="/projects.html">Projects</a>
+            </li>
+            <li class="inline-item">
+                <a class="link link-active" href="/blogs.html">Blogs</a>
+            </li>
+        </ul>
+    </nav>
+     <!-- Header Part with Image -->
+<header class="hero">
+<h1 class="hero-heading">The Two <span class="heading-inverted"> Most Confusing methods </span>of an array in Javascrip</h1>
+</header>
+
+<article class="container-center showcase-blog">
+    <p>Hey everyone, in this blog I am going to discuss the 2 array method. These methods are most confusing for most people. </p>
+    <h2>What is Array?</h2>
+    <p>An array is a collection of data. We use arrays to store multiple types of data in JS array.
+     <p> <strong>var arrayList = [1, 3, 5 ,”Milk”, “bread”, 3.12 ,true];</strong></p>
+        likewise, we can store integer, string, Boolean, decimals, etc.Let’s start with the first method.</p>
+        <h2>slice() :</h2>
+
+        <p>Slice() method returns a copy of a portion in an array into a new array, selected from start to end. As a new array object, It returns the selected elements in an array. slice method takes two arguments like <strong>slice(start, end).</strong>The method selects an element from the start argument and up to end argument but end argument is not included.</p>
+
+        <p>Following are examples :
+           <p> var array = [1,2,3,4,5,6];</p>
+            <p>var newarray = array.slice(3); </p>
+            slice method slice the first 3 elements of original array and gives a new array object as newarray = [4,5,6];</p>
+            <img src="/blog/blogimages/slice1.PNG" class="image-method"/>
+            <p>another example is using start and end argument .
+               <strong> var array = [1,2,3,4,5,6];
+                var newarray1 = array.slice(1,3);   
+                It gives new array object as newarray1 =[2,3].</strong></p>
+                <img src="/blog/blogimages/slice2.PNG" class="image-method"/>
+                
+             <p>One more example as </p>
+             <img src="/blog/blogimages/slice3.PNG" class="image-method"/>
+
+             <h2>splice():</h2>
+             <p>splice method changes an array by adding or removing elements.  It takes a 3 arguments, first argument defines a position where the new argument is added. The second argument defines how many elements will be deleted. The third argument defines a new element to be added.</p>
+
+             <p>Splice() method returns an array with the deleted item and an original array is changed array now by adding elements.Below is example of splice</p>
+
+             <img src="/blog/blogimages/splice.PNG" class="image-method">
+
+             <p>Hope you are like it. Happy reading!!!</p>
+
+</article>
+<!-- Footer starts -->
+<!-- footer -->
+<footer class="footer">
+    <div class="footer-heading">Connect me through a social media</div>
+    <ul class="social-links non-bullets">
+        <li class="inline-item">
+             <a class="link" href="https://github.com/mariyasada">Github</a>
+        </li>
+        <li class="inline-item"> 
+            <a class="link" href="https://twitter.com/mariya_sada">Twitter</a>
+        </li>
+        <li class="inline-item">
+             <a class="link" href="https://www.linkedin.com/in/mariya-sada-1b6443139">LinkedIn</a>
+        </li>
+    </ul>
+ </footer>
+</body>
+</html>
