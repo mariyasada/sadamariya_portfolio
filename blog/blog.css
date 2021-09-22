@@ -1,3 +1,13 @@
+ /* js method styles */
+ /* .image-method{
+    text-align: center;
+    margin: 1rem;
+    height: 20vw;
+    margin: auto;
+} */
+
+ 
+ 
  img{
      height: 30vw;
      width:50vw;
@@ -19,11 +29,4 @@
      margin: auto;
  }
 
- /* js method styles */
- .image-method{
-     text-align: center;
-     margin: 1rem;
-     height: 20vw;
-     margin: auto;
- }
  
